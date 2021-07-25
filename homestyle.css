@@ -1,0 +1,53 @@
+body{
+	background-image:url('xav.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family: Lato;
+	margin:1%;
+	text-shadow:2px 2px 2px #000;
+}
+nav{
+	background-color:rgba(172,115,57,0.5);
+	height:7vh;
+	padding-top:1% 0;
+}
+ul{
+	vertical-align:center;
+}
+li{
+	display:inline;
+	padding:7px;
+	font-size:1.3em;
+}
+a{
+	color:#fff;
+}
+section{
+	text-align:center;
+	margin-top:12%;
+	color:#fff;
+}
+div{
+	background-color:rgba(172,115,57,0.5);
+	padding:5px;
+}
+/*@keyframes colorchang {
+	from {color : #fff;}
+	to{color : #000;}
+}*/
+#headline{
+	font-size:3.8em;
+	animation-name: colorchng;
+	animation-duration:infinite;
+}
+#subline{
+	font-size:2em;
+	animation-name: colorchng;
+	animation-duration:infinite;
+}
+
+footer
+{
+	text-align:center;
+	margin:0 auto;
+}

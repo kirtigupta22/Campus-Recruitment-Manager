@@ -1,0 +1,76 @@
+.dis{
+	margin-top: 10px;
+}
+body{
+	background: url(xav.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+}
+.aligncenter{
+	margin-left: 350px;
+	width: 1000px;
+}
+.pagecontent{
+	background-color: rgba(0,0,0,0.6);
+	margin: 70px 100px;
+    box-sizing: border-box;
+}
+#content{
+	text-align: center;
+	margin: 50px auto;
+}
+h1,h3{
+	color: white;
+	text-shadow: 2px 2px 2px black;
+	font-weight: 1000;
+}
+h1{
+	font-size: 4em;
+	font-weight: 1000;
+}
+html{
+	height: 100%;
+}
+.details{
+	padding-top:40px;
+	padding-bottom:40px;
+	background-color:rgba(172,115,57,0.5);
+	margin: 30px 100px;
+    box-sizing: border-box;
+}
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+	size: 5px;
+}
+
+.table{
+	border:1px solid white;
+	text-shadow:2px 2px 2px #000;
+}
+.table td{
+	font-weight:bold;
+}
+tr:hover {
+	border-radius:20px;
+	box-shadow:2px 2px 2px #000;
+	background-color:rgba(172,115,57,0.8);
+	
+}
+
+.table tr td{
+	padding:15px;
+	border:1px solid white;
+}
+
+.table tr th{
+	padding-left: 100px;
+	border:1px solid white;
+}
